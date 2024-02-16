@@ -16,6 +16,7 @@ header{
    flex-shrink: 0;
    margin: 50px 140px;
    background-position: center;
+   opacity: 0.90;
 }
 .banner-text{
 
@@ -64,4 +65,53 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-top: 20px;
+}
+/* idnight-section */
+.midnight-section{
+   background-image:url("/resources/Vectorrr.png");
+   background-repeat: no-repeat;
+   width: 1320px;
+   height: 600px;
+  flex-shrink: 0;
+  margin-left: 200px;
+  display: flex;
+  opacity: 0.75;
+}
+
+.section-title{
+   margin: 70px 140px;
+}
+.section-title h1{
+   color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+padding-top: 100px;
+}
+.section-title p{
+   color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-bottom: 30px;
+}
+.section-title a{
+   
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+}
+.year-img{
+   padding: 50px 30px;
 }
