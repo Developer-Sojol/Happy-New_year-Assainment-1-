@@ -228,3 +228,56 @@ text-transform: capitalize;
 .img-div{
    display: flex;
 }
+
+/* subscribe-sec */
+.subscribe-sec{
+   width: 1320px;
+   height: 616px;
+   border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
+   margin: 50px 140px;
+   
+}
+.subscribe-sec img{
+   width: 150px;
+   height: 150px;
+   padding: 80px 585px 20px;
+   
+}
+.subscribe-sec h1{
+   color: #070211;
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-transform: capitalize;
+}
+.subscribe-sec p{color: rgba(7, 2, 17, 0.60);
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; /* 160% */
+  
+}
+.form{
+   padding: 50px 500px;
+   display:flex;
+}
+.form input{
+   padding: 15px 40px;
+   border-radius: ;
+}
+.form button{
+  background-color: #F00;
+  padding: 15px 50px;
+  border: 0;
+  border-radius: 20px;
+}
+.form a{
+   text-decoration: none;
+   color: #fff;
+}
