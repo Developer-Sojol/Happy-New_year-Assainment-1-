@@ -160,3 +160,71 @@ margin-top: 20px;
    margin-left: 200px;
    margin-top: 30px;
 }
+
+/* New offer sec */
+.new-offer{
+   width: 1320px;
+   height: 600px;
+   display: flex;
+   margin: 50px 140px;
+}
+.offer-text h1{
+   color: #070211;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-transform: capitalize;
+}
+.offer-text p{
+   color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 32px; /* 160% */
+}
+.red{
+color: #F00;
+font-size: 20px;
+
+}
+
+/* Best gift */
+.best-gift{
+   width: 1320px;
+   height: 1163px;
+   margin: 50px 140px;
+}
+.best-gift h1{
+   color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.best-gift p{
+   color: rgba(7, 2, 17, 0.60);
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; /* 160% */
+   padding-bottom: 30px;
+}
+.best-gift img{
+   margin: 10px;
+   filter: grayscale(.1);
+   transition: .3s;
+}
+.best-gift img:hover{
+   filter:grayscale(0) ;
+    transform: scale(1) rotate(-5deg);
+   
+}
+.img-div{
+   display: flex;
+}
