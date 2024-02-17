@@ -56,11 +56,10 @@ header{
    margin-bottom: 50px;
    }
 .off-text p{
-   cext-align: center;
+   text-align: center;
    font-family: Inter;
    font-size: 24px;
-   font-styleolor: #F00;
-   t: normal;
+   color: #F00;
    font-weight: 500;
    line-height: normal;
 }
