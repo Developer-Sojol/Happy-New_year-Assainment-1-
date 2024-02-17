@@ -47,32 +47,32 @@ header{
 } */
 .off-text h1{
    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 50px;
-}
+   text-align: center;
+   font-family: Inter;
+   font-size: 88px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 50px;
+   }
 .off-text p{
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+   cext-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-styleolor: #F00;
+   t: normal;
+   font-weight: 500;
+   line-height: normal;
 }
 .off-text h2{
-color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 20px;
+   color: #070211;
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 20px;
 }
 /* midnight-section */
 .midnight-section{
@@ -84,28 +84,28 @@ margin-top: 20px;
 }
 .midnight{
    display: flex;
-   background: linear-gradient(to bottom, black, transparent); b
+   background: linear-gradient(to bottom, black, transparent);
 }
 .midnight-text{
-   padding: 100px;
+   padding:100px;
 }
 .midnight-text h1{
    color: #FFF;
- font-family: Merriweather;
- font-size: 64px;
- font-style: normal;
- font-weight: 900;
- line-height: 88px; /* 137.5% */
- letter-spacing: 7.04px;
+   font-family: Merriweather;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 88px; /* 137.5% */
+   letter-spacing: 7.04px;
 }
 .midnight-text p{
    color: rgba(255, 255, 255, 0.80);
- font-family: Inter;
- font-size: 18px;
- font-style: normal;
- font-weight: 400;
- line-height: 30px; /* 166.667% */
- padding-bottom: 20px;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px; /* 166.667% */
+   padding-bottom: 20px;
 
 }
 .midnight a{
@@ -144,13 +144,13 @@ margin-top: 20px;
    color: #F00;
 }
 .place{
- margin-left: 100px;
+   margin-left: 100px;
 }
 .date{
- margin-left:50px;
+   margin-left:50px;
 }
 .time{
- margin: left 50px;
+   margin: left 50px;
 }
 .btn{
    color: #FFF;
@@ -180,16 +180,26 @@ margin-top: 20px;
 }
 .offer-text p{
    color: rgba(7, 2, 17, 0.60);
-  font-family: Inter;
-  font-size: 20px;
- font-style: normal;
- font-weight: 400;
- line-height: 32px; /* 160% */
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; /* 160% */
+   padding-top: 50px;
 }
 .red{
-color: #F00;
-font-size: 20px;
+   color: #F00 !important;
+   font-size: 20px;
 
+}
+.offer-img{
+   margin: 50px;
+}
+.newyear-text p{
+   padding:30px 0px;
+}
+.newyear-text h1{
+   padding-top: 40px;
 }
 
 /* Best gift */
@@ -200,13 +210,13 @@ font-size: 20px;
 }
 .best-gift h1{
    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-padding-bottom: 20px;
+   font-family: Merriweather;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-transform: capitalize;
+   padding-bottom: 20px;
 }
 .best-gift p{
    color: rgba(7, 2, 17, 0.60);
@@ -279,11 +289,11 @@ padding-bottom: 20px;
    border: none;
 }
 .form button{
-  background-color: #F00;
-  padding: 15px 40px;
-  border: 0;
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
+   background-color: #F00;
+   padding: 15px 40px;
+   border: 0;
+   border-bottom-right-radius: 50px;
+   border-top-right-radius: 50px;
 }
 .form a{
    text-decoration: none;
@@ -303,8 +313,8 @@ footer{
 }
 
 footer .top_section,
-footer .middle_section,
-footer .bottom_section {
+.middle_section,
+.bottom_section {
    width: 1320px;
    margin-left: auto;
    margin-right: auto;
@@ -315,7 +325,7 @@ footer .top_section {
    justify-content: space-between;
    margin-top: 120px;
 }
-footer .middle_section {
+.middle_section {
    display: flex;
    justify-content: space-between;
    margin-top: 48px;
@@ -326,31 +336,30 @@ footer .middle_section {
    gap: 24px;
    padding: 48px 0;
 }
-footer .middle_section a img {
-   width: 64px;
-   height: 64px;
+ .middle_section a img {
+   width: 54px;
+   height: 54px;
 }
-footer .top_section .address {
+.top_section .address {
    color: #FFF;
    font-family: Inter;
-   font-size: 24px;
+   font-size: 20px;
    font-style: normal;
    font-weight: 500;
    line-height: 40px;
 }
 
-footer .bottom_section {
+.bottom_section {
    display: flex;
    margin-top: 50px;
    margin-bottom: 120px;
    justify-content: space-between;
 }
 
-footer .bottom_section p,
-footer .bottom_section a {
+.bottom_section p,a {
    color: #FFF;
    font-family: Inter;
-   font-size: 24px;
+   font-size: 20px;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
@@ -364,12 +373,13 @@ footer .top_section .contact .contact_container .contact_item {
    gap: 16px;
 }
 
-footer .top_section .contact .contact_container .contact_item p,
-footer .top_section .contact .contact_container .contact_item a {
+footer .top_section .contact .contact_container .contact_item p,a {
    color: #FFF;
    font-family: Inter;
-   font-size: 24px;
+   font-size: 20px;
    font-style: normal;
    font-weight: 500;
    line-height: 40px;
 }
+
+/* Finish code.... */
