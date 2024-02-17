@@ -311,7 +311,7 @@ footer{
    flex-direction: column;
 }
 
-footer .top_section,
+.top_section,
 .middle_section,
 .bottom_section {
    width: 1320px;
@@ -366,13 +366,13 @@ footer .top_section {
 }
 
 
-footer .top_section .contact .contact_container .contact_item {
+.contact_item {
    display: flex;
    align-items: center;
    gap: 16px;
 }
 
-footer .top_section .contact .contact_container .contact_item p,a {
+.contact_item p,a {
    color: #FFF;
    font-family: Inter;
    font-size: 20px;
