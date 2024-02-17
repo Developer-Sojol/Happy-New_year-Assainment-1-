@@ -7,6 +7,7 @@ body{
    height: 7335px;
    background: #fff;
 }
+
 /* Banner Css */
 header{
    background-image: url("/resources/Banner\ Image.png");
@@ -119,4 +120,43 @@ margin-top: 20px;
 }
 .midnight-img{
    padding: 50px;
+}
+/* imformation-section */
+
+.information-sec{
+   width: 1320px;
+   height: 482px;
+   flex-shrink: 0;
+   background: rgba(255, 0, 0 ,0.10);
+   margin: 50px 140px;
+}
+.information-text{
+   color: #070211;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   padding:100px 385px 214px ;
+   line-height: 56px;
+}
+.information-text span {
+   color: #F00;
+}
+.place{
+ margin-left: 100px;
+}
+.date{
+ margin-left:50px;
+}
+.time{
+ margin: left 50px;
+}
+.btn{
+   color: #FFF;
+   padding: 10px 25px;
+   border-radius: 5px ;
+   background-color: #F00;
+   border: 0;
+   margin-left: 200px;
+   margin-top: 30px;
 }
